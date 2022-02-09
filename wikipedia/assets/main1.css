@@ -1,0 +1,97 @@
+body {
+  padding: 30px 30px 30px 30px;
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  justify-content: center;
+}
+
+.sides {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper {
+  padding: 0px 10px 0px 10px;
+  display: flex;
+  column-gap: 15%;
+  margin-left: -5%;
+  justify-content: center;
+}
+
+.left {
+  max-width: 45%;
+}
+
+.column-text {
+  max-width: 70%;
+}
+
+.quote-text {
+  font-size: 14px;
+  background-color: rgb(233, 238, 240);
+  padding: 10px 20px 0px 20px;
+  max-width: 30%;
+}
+
+h1 {
+  font-weight: 900;
+  font-style: normal;
+  font-size: 40px;
+  padding-bottom: 0px;
+  line-height: 0px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 30px;
+  font-style: normal;
+  padding-top: 20px;
+}
+
+h3 {
+  font-weight: 500;
+  font-style: normal;
+}
+
+.caption {
+  font-size: 14px;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: -3%;
+}
+
+.subtitle {
+  padding-top: 20px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+ul {
+  max-width: 145%;
+}
+
+img {
+  margin-top: 5%;
+  width: 90%;
+}
+
+.image {
+  text-align: center;
+  float: center;
+  justify-content: center;
+}
+
+.link {
+  margin-top: 5%;
+  text-align: right;
+  color: rgb(255, 255, 255);
+}
+
+a {
+  background-color: aqua;
+  color: black;
+  padding: 10px;
+  font-style: bold;
+  text-decoration: none;
+}

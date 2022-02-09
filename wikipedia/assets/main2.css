@@ -1,0 +1,166 @@
+body {
+  padding-top: 0px;
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  justify-content: center;
+  margin: 0px;
+  color: white;
+  background-color: #000000;
+}
+
+.mainheader {
+  background-image: url(https://airwallpaper.com/wp-content/uploads/wall003/Black-Backgrounds-HD.jpg);
+  /* height: 10%; */
+  padding-top: 20%;
+  padding-left: 5%;
+  padding-bottom: 1%;
+}
+
+h1 {
+  width: 80%;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 200px;
+  margin-bottom: 0px;
+  text-transform: lowercase;
+  line-height: 120px;
+  color: #ffffff;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: -10%;
+}
+
+.wiki {
+  background-color: rgb(255, 55, 71);
+  color: black;
+  font-style: italic;
+  font-size: 50px;
+  padding-top: 1%;
+  padding-bottom: 1% !important;
+  padding-right: 2% !important;
+  font-weight: 600;
+  justify-content: end;
+  text-transform: lowercase;
+  text-align: right;
+}
+
+.subtitle {
+  padding-top: 20px;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: -2%;
+  font-weight: 500;
+}
+
+.maintext {
+  padding-top: 1% !important;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 20px;
+  text-align: justify;
+}
+
+/* .sides {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  max-width: 45%;
+} */
+
+.column-text {
+  max-width: 100%;
+}
+
+h2 {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 30px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(255, 55, 71);
+  font-weight: 900;
+  width: 127.5%;
+  margin-left: -15%;
+  margin-top: 5%;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 10px;
+  letter-spacing: 5px;
+  font-size: 60px;
+  font-style: normal;
+  padding-top: 10px;
+}
+
+h3 {
+  background-color: rgb(63, 60, 255);
+  padding: 16px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-style: normal;
+}
+
+img {
+  margin-top: 0%;
+  margin-bottom: 0%;
+  width: 60%;
+}
+
+.image {
+  text-align: center;
+  float: center;
+  justify-content: center;
+}
+
+.caption {
+  font-size: 30px;
+  text-align: center;
+  font-style: italic;
+  text-transform: capitalize;
+  margin-bottom: 4%;
+}
+
+.ordered {
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+  margin-left: 20%;
+  background: rgb(149, 57, 255);
+  border-radius: 50%;
+  margin-bottom: 2%;
+}
+
+ol {
+  text-align: left;
+  padding-top: 12%;
+  padding-left: 50%;
+  line-height: 160%;
+  width: 500%;
+  font-style: italic;
+}
+
+.bottom {
+  margin-bottom: 10%;
+}
+
+.link {
+  margin-bottom: 10%;
+  text-align: right;
+  color: rgb(255, 255, 255);
+}
+
+a {
+  background-color: rgb(255, 55, 71);
+  color: white;
+  padding: 10px;
+  font-style: bold;
+  text-decoration: none;
+}
+
+ul {
+  max-width: 145%;
+}
