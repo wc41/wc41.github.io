@@ -1,0 +1,54 @@
+body {
+  background-color: rgb(255, 49, 83);
+  font-family: "Poiret One";
+  font-style: bold;
+  color: rgb(255, 255, 255);
+  font-size: 250px;
+}
+
+.container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 98vw;
+  /* height: 100vh; */
+}
+
+.item {
+  position: absolute;
+  padding-top: 40vh;
+  text-align: center;
+}
+
+#yin-yang {
+  position: absolute;
+  padding-top: 128vh;
+  height: 100px;
+  fill: white;
+  animation: yinyangSpin 3s ease-out infinite;
+}
+
+#yin-yang:hover {
+  animation-play-state: paused;
+  fill: rgb(49, 97, 255);
+}
+
+@keyframes yinyangSpin {
+  0% {
+    transform: translateX(0vw) translateY(0vh) scaleX(1) scaleY(1);
+  }
+  50% {
+    transform: translateX(0vw) translateY(-150vh) scaleX(3) scaleY(3);
+  }
+  75% {
+    transform: translateX(-5vw) translateY(-210vh) scaleX(5) scaleY(4);
+  }
+  90% {
+    transform: translateX(0vw) translateY(-265vh) scaleX(6.5) scaleY(5);
+  }
+  100% {
+    transform: translateX(0vw) translateY(-265vh) scaleX(6.5) scaleY(5);
+  }
+}
