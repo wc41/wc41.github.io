@@ -1,0 +1,86 @@
+.square {
+  height: 35px;
+  width: 35px;
+  margin-top: 0%;
+  background-color: white;
+}
+.wrapper-mar {
+  margin-top: -30%;
+  margin-right: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 25px;
+  margin-bottom: 10%;
+}
+.whole-world {
+  width: 99%;
+  height: 60% !important;
+  background-image: url("eye.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 110%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.topper {
+  margin-top: 5%;
+}
+.topper-2 {
+  margin-top: 10%;
+}
+.world-text {
+  margin-top: 60%;
+}
+.world-text-2 {
+  height: 40%;
+  margin-bottom: 60%;
+}
+.drumpic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.wrapper-sides {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10%;
+  width: 100%;
+}
+.jank {
+  margin-left: -3%;
+}
+.jank2 {
+  margin-left: 5%;
+}
+.self {
+  align-self: center;
+}
+.bluemid {
+  font-size: 40px;
+  color: rgb(0, 102, 255);
+}
+.redmid {
+  font-size: 70px;
+  color: rgb(255, 38, 0);
+}
+.wrapper-sides-gold {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20%;
+  width: 100%;
+}
+.goldpic {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mar-button {
+  font-size: 25px;
+}

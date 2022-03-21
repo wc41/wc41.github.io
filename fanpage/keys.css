@@ -1,0 +1,145 @@
+.square {
+  height: 35px;
+  width: 35px;
+  margin-top: 0%;
+
+  background-color: white;
+}
+.wrapper-keys {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 25px;
+  margin-bottom: 0%;
+}
+.topper {
+  margin-top: 4%;
+}
+.topper-big {
+  margin-top: 7%;
+}
+
+.topper-bigger {
+  margin-top: 30%;
+}
+
+.kinda-big-size {
+  font-size: 50px;
+}
+.novapic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  filter: grayscale(100%); /* Completely grayscale */
+}
+.novacolor {
+  filter: grayscale(0%) !important;
+}
+.wrapper-keys-sides {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10%;
+  width: 100%;
+}
+.wrapper-keys-side-columns {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.wrapper-keys-side-columns-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  text-align: right;
+}
+
+.very-big-size {
+  font-size: 140px;
+  letter-spacing: 20px;
+  transition: 0.9s ease;
+}
+
+.yellow:hover {
+  letter-spacing: 70px;
+}
+
+.yellow {
+  color: yellow;
+}
+
+.green {
+  color: rgb(30, 255, 0);
+}
+
+.green:hover {
+  color: rgb(151, 40, 255);
+}
+
+.blue {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: 40px;
+  color: rgb(44, 255, 255);
+}
+
+.blue:hover {
+  color: transparent;
+
+  text-shadow: 0 0 20px rgb(0, 255, 234);
+}
+
+.pink {
+  letter-spacing: 40px;
+
+  color: rgb(255, 37, 146);
+}
+
+.pink:hover {
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228dff,
+    0 0 35px #228dff, 0 0 40px #228dff;
+}
+
+.big-size {
+  font-size: 70px;
+}
+
+.wrapper-keys-sides-bot {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  gap: 5%;
+  width: 100%;
+}
+.wrapper-keys-side-columns-2 {
+  flex-wrap: nowrap;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-right: 10%;
+  align-items: flex-end;
+  justify-items: right;
+  text-align: right;
+}
+
+.keys-button {
+  border: 1px;
+  border-style: solid;
+  font-size: 25px;
+  border-color: white;
+  padding: 0.2% 2%;
+  margin-bottom: 16%;
+  text-align: right;
+  width: 20%;
+}
