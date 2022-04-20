@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  display: flex;
+  /* This centers our sketch horizontally. */
+  justify-content: center;
+  /* This centers our sketch vertically. */
+  align-items: center;
+}
+
+/* i'm using the z index to move the slider on top of the container */
+.container {
+  z-index: 0;
+}
+
+.slider {
+  z-index: 1;
+  margin-top: 30em;
+  -webkit-appearance: none; /* Override default CSS styles */
+  appearance: none;
+  width: 500px; /* Specified height */
+  height: 5px; /* Specified height */
+  background: black; /* background color */
+  outline: none; /* Remove outline */
+  opacity: 0.4; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: 0.2s; /* 0.2 seconds transition on hover */
+  transition: all 0.2s;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+  border: 1px dotted black;
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 50px; /* Set a specific slider handle width */
+  height: 50px; /* Slider handle height */
+  border-radius: 50%; /* Make it a circle */
+  background: rgb(255, 189, 103); /*  background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+  width: 50px; /* Set a specific slider handle width */
+  height: 50px; /* Slider handle height */
+  background: OliveDrab;
+  cursor: pointer; /* Cursor on hover */
+}
+
+.copy {
+  font-family: "Poppins";
+  font-size: 100px;
+  width: 400px;
+}
+
+.button {
+  z-index: 1;
+  margin-top: 2em;
+  padding: 20px;
+  background-color: yellow;
+}
+
+.button:hover {
+  background-color: green;
+  cursor: pointer;
+}
+
+.input {
+  font-family: "Poppins";
+
+  z-index: 1;
+  margin-top: 2em;
+  max-width: 600px;
+  height: 60px;
+  font-size: 36px;
+  padding: 10px;
+}
+
+.birthday {
+  font-family: "Poppins";
+  font-size: 36px;
+  z-index: 1;
+  bottom: 20px;
+  right: 500px;
+  position: absolute;
+}
