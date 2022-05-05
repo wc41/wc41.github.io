@@ -231,3 +231,7 @@ function mouseDragged() {
     a = atan2(mouseY - height / 2, mouseX - width / 2) - aInitial;
   }
 }
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
