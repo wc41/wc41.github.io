@@ -1,0 +1,587 @@
+body {
+  font-family: "Istok Web";
+  margin: 0px;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+.two34 {
+  font-size: 3.12vh;
+  margin-top: 8vh;
+}
+
+.mainheader-bold {
+  font-size: 11vh;
+  line-height: 90%;
+}
+
+.small1 {
+  margin-top: 7vh;
+  font-size: 3.6vh;
+}
+
+.about {
+  font-size: 5vh;
+  margin-top: 5vh;
+  font-weight: bold;
+  line-height: 90%;
+}
+
+.about2 {
+  font-size: 3vh;
+  margin-top: 5vh;
+  line-height: 90%;
+  width: 80vw;
+}
+
+.title-container {
+  margin: 0;
+  margin-left: 10vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+
+.image {
+  height: 20vh;
+  width: 20vw;
+}
+.line {
+  height: 10vh;
+  width: 70vw;
+  border-bottom: 3px solid black;
+  margin-right: 5vw;
+}
+.line2 {
+  margin-top: -3vh;
+  height: 10vh;
+  width: 80vw;
+  border-bottom: 3px solid black;
+}
+.line-container1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: left;
+  margin-top: 10vh;
+
+  margin-bottom: -2vh;
+}
+
+/* i'm using the z index to move the slider on top of the container */
+.container {
+  margin-top: 00vh;
+  display: block;
+  z-index: 0;
+}
+
+.slider {
+  z-index: 1;
+  margin-top: 30em;
+  -webkit-appearance: none; /* Override default CSS styles */
+  appearance: none;
+  width: 500px; /* Specified height */
+  height: 5px; /* Specified height */
+  background: black; /* background color */
+  outline: none; /* Remove outline */
+  opacity: 0.4; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: 0.2s; /* 0.2 seconds transition on hover */
+  transition: all 0.2s;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+  border: 1px dotted black;
+}
+
+.week1chunking {
+  position: absolute;
+  color: black;
+  z-index: 2;
+  font-size: 2.3vh;
+  font-weight: bold;
+  margin-left: 67vw;
+  margin-top: 32vh;
+  user-select: none;
+}
+.week1chunking:hover {
+  background: url("assets/chunking.jpg") no-repeat;
+  background-position: center;
+  background-size: 40vh 8vw;
+  height: 34vh;
+}
+.week1chunking span {
+  display: none;
+}
+.week1chunking:hover span {
+  display: inline;
+  color: blue;
+}
+
+.week1terrain {
+  position: absolute;
+  z-index: 2;
+  font-size: 2.3vh;
+  font-weight: bold;
+  margin-left: 15vw;
+  margin-top: 21vh;
+  user-select: none;
+}
+.week1terrain:hover {
+  background: url("assets/terrain.jpg") no-repeat;
+  background-position: center;
+  background-size: 45vh 8vw;
+  height: 32vh;
+}
+.week1terrain span {
+  display: none;
+}
+.week1terrain:hover span {
+  display: inline;
+  color: blue;
+}
+
+.week1physics {
+  position: absolute;
+  z-index: 2;
+  font-size: 2.3vh;
+  font-weight: bold;
+  margin-left: 18vw;
+  margin-top: 48vh;
+  user-select: none;
+}
+
+.week1physics:hover {
+  background: url("assets/physics.jpg") no-repeat;
+  background-position: center;
+  background-size: 35vh 8vw;
+  height: 34vh;
+}
+
+.week1physics span {
+  display: none;
+}
+.week1physics:hover span {
+  display: inline;
+  color: blue;
+}
+
+.week2caves {
+  position: absolute;
+  z-index: 2;
+  font-size: 2.3vh;
+  font-weight: bold;
+  margin-left: 66vw;
+  margin-top: 20vh;
+  user-select: none;
+}
+.week2caves:hover {
+  background: url("assets/caves.jpg") no-repeat;
+  background-position: center;
+  background-size: 45vh 8vw;
+  height: 34vh;
+}
+.week2caves span {
+  display: none;
+}
+.week2caves:hover span {
+  display: inline;
+  color: blue;
+}
+.week2thread {
+  position: absolute;
+  z-index: 2;
+  font-size: 2.3vh;
+  font-weight: bold;
+  margin-left: 65vw;
+  margin-top: 50vh;
+  user-select: none;
+}
+.week2thread:hover {
+  background: url("assets/multithread.jpg") no-repeat;
+  background-position: center;
+  background-size: 45vh 10vw;
+  height: 36vh;
+}
+.week2thread span {
+  display: none;
+}
+.week2thread:hover span {
+  display: inline;
+  color: blue;
+}
+.week2texture {
+  position: absolute;
+  z-index: 2;
+  font-size: 2.3vh;
+  font-weight: bold;
+  margin-left: 12vw;
+  margin-top: 34vh;
+  user-select: none;
+}
+
+.week2texture:hover {
+  background: url("assets/texture.jpg") no-repeat;
+  background-position: center;
+  background-size: 45vh 10vw;
+  height: 36vh;
+}
+.week2texture span {
+  display: none;
+}
+.week2texture:hover span {
+  display: inline;
+  color: blue;
+}
+
+.week3-rivers {
+  position: absolute;
+  z-index: 2;
+  font-size: 2.3vh;
+  font-weight: bold;
+  margin-left: 64vw;
+  margin-top: 22vh;
+  user-select: none;
+}
+
+.week3-rivers:hover {
+  background: url("assets/Lsystem.jpg") no-repeat;
+  background-position: center;
+  background-size: 40vh 10vw;
+  height: 36vh;
+  width: 19vw;
+  z-index: 5;
+}
+.week3-rivers span {
+  display: none;
+}
+.week3-rivers:hover span {
+  display: inline;
+  color: blue;
+}
+
+.week3-blinn {
+  position: absolute;
+  z-index: 2;
+  font-size: 2.3vh;
+  font-weight: bold;
+  margin-left: 65.5vw;
+  margin-top: 37vh;
+  user-select: none;
+}
+.week3-blinn:hover {
+  background: url("assets/blinn.jpg") no-repeat;
+  background-position: center;
+  background-size: 40vh 10vw;
+  height: 36vh;
+  width: 24vw;
+  z-index: 4;
+}
+.week3-blinn span {
+  display: none;
+}
+.week3-blinn:hover span {
+  display: inline;
+  color: blue;
+}
+.week3-wavy {
+  position: absolute;
+  z-index: 2;
+  font-size: 2.3vh;
+  font-weight: bold;
+  margin-left: 63vw;
+  margin-top: 52vh;
+  user-select: none;
+}
+.week3-wavy:hover {
+  background: url("assets/wavy.jpg") no-repeat;
+  background-position: center;
+  background-size: 40vh 10vw;
+  height: 36vh;
+  width: 24vw;
+  z-index: 4;
+}
+.week3-wavy span {
+  display: none;
+}
+.week3-wavy:hover span {
+  display: inline;
+  color: blue;
+}
+.week3-cross {
+  position: absolute;
+  z-index: 2;
+  font-size: 2.3vh;
+  font-weight: bold;
+  margin-left: 23vw;
+  margin-top: 54vh;
+  user-select: none;
+}
+
+.week3-cross:hover {
+  background: url("assets/crosshair.jpg") no-repeat;
+  background-position: center;
+  background-size: 40vh 10vw;
+  height: 36vh;
+  width: 20vw;
+  z-index: 4;
+}
+.week3-cross span {
+  display: none;
+}
+.week3-cross:hover span {
+  display: inline;
+  color: blue;
+}
+
+.week3-fog {
+  position: absolute;
+  z-index: 2;
+  font-size: 2.3vh;
+  font-weight: bold;
+  margin-left: 24vw;
+  margin-top: 37vh;
+  user-select: none;
+}
+.week3-fog:hover {
+  background: url("assets/fog.jpg") no-repeat;
+  background-position: center;
+  background-size: 40vh 10vw;
+  height: 36vh;
+  width: 19vw;
+  z-index: 4;
+}
+.week3-fog span {
+  display: none;
+}
+.week3-fog:hover span {
+  display: inline;
+  color: blue;
+}
+.week3-day {
+  position: absolute;
+  z-index: 2;
+  font-size: 2.3vh;
+  font-weight: bold;
+  margin-left: 28vw;
+  margin-top: 21vh;
+  user-select: none;
+}
+.week3-day:hover {
+  background: url("assets/day.jpg") no-repeat;
+  background-position: center;
+  background-size: 40vh 10vw;
+  height: 36vh;
+  width: 19vw;
+  z-index: 4;
+}
+.week3-day span {
+  display: none;
+}
+.week3-day:hover span {
+  display: inline;
+  color: blue;
+}
+
+.end-shadows {
+  position: absolute;
+  z-index: 2;
+  font-size: 2.3vh;
+  font-weight: bold;
+  margin-left: 64vw;
+  margin-top: 21vh;
+  user-select: none;
+}
+.end-shadows:hover {
+  background: url("assets/shadows.jpg") no-repeat;
+  background-position: center;
+  background-size: 40vh 10vw;
+  height: 36vh;
+  width: 20vw;
+  z-index: 4;
+}
+.end-shadows span {
+  display: none;
+}
+.end-shadows:hover span {
+  display: inline;
+  color: blue;
+}
+.end-xblock {
+  position: absolute;
+  z-index: 2;
+  font-size: 2.3vh;
+  font-weight: bold;
+  margin-left: 65.5vw;
+  margin-top: 37vh;
+  user-select: none;
+}
+.end-xblock:hover {
+  background: url("assets/x.jpg") no-repeat;
+  background-position: center;
+  background-size: 40vh 10vw;
+  height: 36vh;
+  width: 20vw;
+  z-index: 4;
+}
+.end-xblock span {
+  display: none;
+}
+.end-xblock:hover span {
+  display: inline;
+  color: blue;
+}
+.end-biomes {
+  position: absolute;
+  z-index: 2;
+  font-size: 2.3vh;
+  font-weight: bold;
+  margin-left: 63vw;
+  margin-top: 52vh;
+  user-select: none;
+}
+.end-biomes:hover {
+  background: url("assets/biomes.jpg") no-repeat;
+  background-position: center;
+  background-size: 40vh 10vw;
+  height: 36vh;
+  width: 20vw;
+  z-index: 4;
+}
+.end-biomes span {
+  display: none;
+}
+.end-biomes:hover span {
+  display: inline;
+  color: blue;
+}
+
+.end-rain {
+  position: absolute;
+  z-index: 2;
+  font-size: 2.3vh;
+  font-weight: bold;
+  margin-left: 25vw;
+  margin-top: 51vh;
+  user-select: none;
+}
+.end-rain:hover {
+  background: url("assets/rain.jpg") no-repeat;
+  background-position: center;
+  background-size: 40vh 10vw;
+  height: 36vh;
+  width: 20vw;
+  z-index: 4;
+}
+.end-rain span {
+  display: none;
+}
+.end-rain:hover span {
+  display: inline;
+  color: blue;
+}
+.end-proc {
+  position: absolute;
+  z-index: 2;
+  font-size: 2.3vh;
+  font-weight: bold;
+  margin-left: 18vw;
+  margin-top: 37vh;
+  user-select: none;
+}
+
+.end-proc:hover {
+  background: url("assets/proc.jpg") no-repeat;
+  background-position: center;
+  background-size: 40vh 10vw;
+  height: 36vh;
+  width: 19vw;
+  z-index: 4;
+}
+.end-proc span {
+  display: none;
+}
+.end-proc:hover span {
+  display: inline;
+  color: blue;
+}
+
+.end-inv {
+  position: absolute;
+  z-index: 2;
+  font-size: 2.3vh;
+  font-weight: bold;
+  margin-left: 17vw;
+  margin-top: 21vh;
+  user-select: none;
+}
+.end-inv:hover {
+  background: url("assets/inv.jpg") no-repeat;
+  background-position: center;
+  background-size: 40vh 10vw;
+  height: 36vh;
+  width: 20vw;
+  z-index: 4;
+}
+.end-inv span {
+  display: none;
+}
+.end-inv:hover span {
+  display: inline;
+  color: blue;
+}
+.miniheader1 {
+  position: absolute;
+  z-index: 2;
+  font-size: 7vh;
+  font-weight: bold;
+  margin-left: 44.6vw;
+  margin-top: 0vh;
+  user-select: none;
+}
+.miniheader2 {
+  position: absolute;
+  z-index: 2;
+  font-size: 7vh;
+  font-weight: bold;
+  margin-left: 44.6vw;
+  margin-top: 0vh;
+  user-select: none;
+}
+
+.miniheader3 {
+  position: absolute;
+  z-index: 2;
+  font-size: 7vh;
+  font-weight: bold;
+  margin-left: 44.6vw;
+  margin-top: 0vh;
+  user-select: none;
+}
+.miniheader4 {
+  position: absolute;
+  z-index: 2;
+  font-size: 7vh;
+  font-weight: bold;
+  margin-left: 41vw;
+  margin-top: 0vh;
+  user-select: none;
+}
+.note {
+  position: absolute;
+  z-index: 2;
+  font-size: 2vh;
+  font-style: italic;
+  margin-left: 41vw;
+  margin-top: -9vh;
+  text-align: center;
+  user-select: none;
+}
